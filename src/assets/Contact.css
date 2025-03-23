@@ -1,0 +1,58 @@
+.main-contact {
+    background: url(https://cdn.pixabay.com/photo/2015/03/27/12/56/keyboard-694709_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}   
+
+.overlay {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(52, 94, 235, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 5em;
+   background-color: white;
+   border-radius: 8px;
+}
+
+.contact-box1 .contact-box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em;
+}
+
+
+.contact-box3 {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    width: 90%;
+    margin-bottom: 2em;
+}
+
+.contact-box3 form {
+    width: 100%;
+}
+
+/* ----RESPONSIVE---- */
+
+@media (max-width: 990px) {
+    .contact-box3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+    }
+}

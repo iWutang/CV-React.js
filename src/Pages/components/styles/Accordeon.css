@@ -1,0 +1,49 @@
+.accordeon {
+    width: 100%;
+    max-width: 600px;
+    margin: 3em auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.accordeon-item {
+    border-bottom: 3px solid #ccc;
+}
+
+.accordeon-header {
+    padding: 15px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordeon-header .chevronsDown {
+    font-size: medium;
+    margin: 0.5em;
+}
+
+.accordeon-header:hover {
+    background-color: #e1e1e1;
+}
+
+.accordeon-header.open {
+    background-color: #85c1e9;
+    border: 5px solid #3498db;
+}
+
+.accordeon-content {
+    padding: 15px;
+}
+
+.accordeon-p {
+    font-family: Nunito Sans;
+    font-weight: 600;
+}
+
+.pixabay, .pixabay:hover {
+    color: #1b2ed8;
+    text-decoration: none;
+    font-weight: bold;
+}
